@@ -9,6 +9,7 @@ This is a Stock Portfolio Application built using Django (Backend) and React (Fr
 📊 Opportunity Analysis
 
 📂 Portfolio-wise Stock Management
+
 **#Staff Login**
 
 **username - rovin@gmail.com
