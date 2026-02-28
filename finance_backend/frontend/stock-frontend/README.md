@@ -1,4 +1,4 @@
-📊 Stock Portfolio Application
+#📊 Stock Portfolio Application
 
 This is a Stock Portfolio Application built using Django (Backend) and React (Frontend) to monitor stocks based on various financial parameters like:
 
@@ -22,7 +22,7 @@ STKM/
 │
 └── frontend/
       └── stock-frontend/ # React application
-🚀 Features
+🚀# Features
 
 🔐 Staff Login System
 
@@ -36,7 +36,7 @@ STKM/
 
 🔎 Search & Dynamic Data Rendering
 
-🛠 Backend
+🛠 #Backend
 
 Django 6.0.2
 
@@ -50,13 +50,13 @@ yfinance (Stock Data Fetching)
 
 Pandas & Matplotlib (EDA)
 
-🎨 Frontend
+🎨 #Frontend
 
 React
 
 Axios (API Calls)
 
-📦 Main Python Libraries
+📦 #Main Python Libraries
 
 Django
 
@@ -74,7 +74,7 @@ yfinance
 
 requests
 
-▶️ How to Run
+▶️ #How to Run
 Backend
 cd finance_backend
 python manage.py runserver
@@ -82,6 +82,6 @@ Frontend
 cd frontend/stock-frontend
 npm install
 npm start
-📌 Author
+📌# Author
 
 Developed as a Stock Market Portfolio Monitoring System for learning full-stack development with Django & React.
