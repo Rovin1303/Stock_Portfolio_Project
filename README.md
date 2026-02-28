@@ -12,11 +12,13 @@ This is a Stock Portfolio Application built using Django (Backend) and React (Fr
 
 **#Staff Login**
 
-**username - rovin@gmail.com
-password - 12345**
+**username - rovin@gmail.com**
+
+**password - 12345**
 
 
 **🏗 Project Structure**
+
 STKM/
 │
 ├── finance_backend/
@@ -81,13 +83,18 @@ yfinance
 requests
 
 **▶️ How to Run**
-Backend
+**Backend**
+
 cd finance_backend
+
 python manage.py runserver
-Frontend
+
+**Frontend**
+
 cd frontend/stock-frontend
 npm install
 npm start
+
 **📌Author**
 
 Developed as a Stock Market Portfolio Monitoring System for learning full-stack development with Django & React.
