@@ -1,0 +1,22 @@
+# Virtual Environment
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+db.sqlite3
+
+# React
+node_modules/
+build/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
