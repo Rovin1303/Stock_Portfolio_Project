@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+📊 Stock Portfolio Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a Stock Portfolio Application built using Django (Backend) and React (Frontend) to monitor stocks based on various financial parameters like:
 
-## Available Scripts
+📈 PE Ratio
 
-In the project directory, you can run:
+💰 Discount Level
 
-### `npm start`
+📊 Opportunity Analysis
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📂 Portfolio-wise Stock Management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🏗 Project Structure
+STKM/
+│
+├── finance_backend/
+│     ├── eda/            # Data analysis logic
+│     ├── staff/          # Staff authentication
+│     ├── portfolio/      # Portfolio & Stock models
+│     ├── finance_backend/ # Django core settings
+│     └── manage.py
+│
+└── frontend/
+      └── stock-frontend/ # React application
+🚀 Features
 
-### `npm test`
+🔐 Staff Login System
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📁 Portfolio Management
 
-### `npm run build`
+📊 Stock Listing by Portfolio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+📉 PE Ratio & Discount Calculation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📈 Opportunity Insights
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔎 Search & Dynamic Data Rendering
 
-### `npm run eject`
+🛠 Backend
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Django 6.0.2
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Django REST Framework
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+django-cors-headers
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+SQLite Database
 
-## Learn More
+yfinance (Stock Data Fetching)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pandas & Matplotlib (EDA)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🎨 Frontend
 
-### Code Splitting
+React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Axios (API Calls)
 
-### Analyzing the Bundle Size
+📦 Main Python Libraries
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Django
 
-### Making a Progressive Web App
+djangorestframework
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+django-cors-headers
 
-### Advanced Configuration
+pandas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+numpy
 
-### Deployment
+matplotlib
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+yfinance
 
-### `npm run build` fails to minify
+requests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+▶️ How to Run
+Backend
+cd finance_backend
+python manage.py runserver
+Frontend
+cd frontend/stock-frontend
+npm install
+npm start
+📌 Author
+
+Developed as a Stock Market Portfolio Monitoring System for learning full-stack development with Django & React.
